@@ -1,0 +1,18 @@
+[
+    {
+        "time": "9:00 AM - 10:30 AM",
+        "event": "Conferencia 1",
+        "speaker": "John Doe"
+    },
+    {
+        "time": "11:00 AM - 12:30 PM",
+        "event": "Conferencia 2",
+        "speaker": "Jane Smith"
+    },
+    {
+        "time": "2:00 PM - 3:30 PM",
+        "event": "Conferencia 3",
+        "speaker": "Alice Johnson"
+    }
+    // Agrega más conferencias según sea necesario
+]

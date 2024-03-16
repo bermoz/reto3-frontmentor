@@ -1,0 +1,196 @@
+/* Definición de la paleta de colores */
+:root {
+    --smoky-black: #100b00ff;
+    --yellow-green: #85cb33ff;
+    --nyanza: #efffc8ff;
+    --ash-gray: #a5cbc3ff;
+    --drab-dark-brown: #3b341fff;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+/* Estilo para el encabezado */
+header {
+    width: 100%;
+    background-color: var(--yellow-green);
+    color: var(--smoky-black);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para enlaces en el menú de navegación */
+nav{
+    width: 100%;    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--smoky-black);
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+
+/* Estilo para el contenido principal */
+section {
+    background-color: var(--nyanza);
+    color: var(--smoky-black);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--ash-gray);
+    color: var(--smoky-black);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para botones */
+button {
+    background-color: var(--yellow-green);
+    color: var(--smoky-black);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--drab-dark-brown);
+    color: var(--nyanza);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilos para las tarjetas de la agenda */
+.agenda-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.agenda-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.agenda-presenter {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.agenda-summary {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.agenda-time {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.agenda-location {
+    font-size: 1em;
+}
+
+
+/* Estilos para las tarjetas de los ponentes */
+.speaker-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.speaker-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.speaker-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.speaker-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.speaker-experience {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.speaker-social {
+    display: flex;
+    justify-content: center;
+}
+
+.speaker-social a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #007bff;
+    font-size: 1.5em;
+}
+/* Estilos del héroe */
+.hero {
+    width: 100%;
+    background-image: url('metaverse-6786713_640.png');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}

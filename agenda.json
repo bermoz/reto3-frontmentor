@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Charla de Tecnología Avanzada",
+        "presenter": "Dr. Juan Pérez",
+        "summary": "Últimas tendencias en tecnología avanzada.",
+        "time": "10:00 AM - 11:30 AM",
+        "location": "A"
+    },
+    {
+        "title": "Investigación en Ciencias",
+        "presenter": "Dra. María González",
+        "summary": "Presentación de investigaciones científicas.",
+        "time": "12:00 PM - 1:30 PM",
+        "location": "B"
+    },
+    {
+        "title": "Desarrollo Frontend",
+        "presenter": "Ing. Laura Rodríguez",
+        "summary": "Nuevas técnicas y enfoques de desarrollo frontend.",
+        "time": "2:00 PM - 3:30 PM",
+        "location": "C"
+    }
+]

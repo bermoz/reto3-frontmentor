@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Dr. Juan Pérez",
+        "title": "Experto en Tecnología",
+        "experience": "Más de 10 años de experiencia en desarrollo web.",
+        "image": "foto1.jpg",
+        "social": [
+            {
+                "platform": "LinkedIn",
+                "url": "https://www.linkedin.com/in/juan-perez",
+                "icon": "fab fa-linkedin"
+            },
+            {
+                "platform": "Twitter",
+                "url": "https://twitter.com/juan_perez",
+                "icon": "fab fa-twitter"
+            }
+        ]
+    },
+    {
+        "name": "Dra. María González",
+        "title": "Investigadora en Ciencias",
+        "experience": "Investigadora destacada en el campo de las ciencias.",
+        "image": "foto2.jpg",
+        "social": [
+            {
+                "platform": "LinkedIn",
+                "url": "https://www.linkedin.com/in/maria-gonzalez",
+                "icon": "fab fa-linkedin"
+            },
+            {
+                "platform": "Facebook",
+                "url": "https://www.facebook.com/maria.gonzalez",
+                "icon": "fab fa-facebook"
+            }
+        ]
+    },
+    {
+        "name": "Ing. Laura Rodríguez",
+        "title": "Desarrolladora Frontend",
+        "experience": "Especialista en desarrollo frontend y diseño web.",
+        "image": "foto3.jpg",
+        "social": [
+            {
+                "platform": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laura-rodriguez",
+                "icon": "fab fa-linkedin"
+            },
+            {
+                "platform": "GitHub",
+                "url": "https://github.com/laura-rodriguez",
+                "icon": "fab fa-github"
+            }
+        ]
+    }
+]
